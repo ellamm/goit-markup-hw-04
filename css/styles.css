@@ -192,6 +192,10 @@ p{
     text-align: left;
 }
 
+.customer-section {
+    background-color: var(--white);
+}
+
 .customer-section ul{
     display: flex; 
     justify-content: center;
