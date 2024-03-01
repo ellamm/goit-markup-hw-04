@@ -182,7 +182,7 @@ h2 {
 .our-team-section li {
     list-style-type: none;
     background-color: white;
-    padding-bottom: 20px;
+    padding-bottom: 32px;
     display: flex;
     flex-direction: column;
 }
@@ -223,12 +223,7 @@ h2 {
 .social-link-icon{
     overflow: visible;
     position: absolute;
-    right: 30%;
-    left: 30%;
-    width: 40%;
-    bottom: 30%;
-    top: 30%;
-    height: 40%;
+    padding-left: 40px
 }
 
 p{
