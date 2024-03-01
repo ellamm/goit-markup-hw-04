@@ -306,10 +306,33 @@ p{
     align-items: center;
 }
 
-.footer-social-media .social-link-icon {
+/* .footer-social-media .social-link-icon {
     overflow: visible;
     position: absolute;
     padding-left: 40px
+} */
+
+.main-footer .footer-social-media{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.main-footer .footer-social-media .social-media-link {
+    width: 44px;
+    height: 44px;
+    background-color: var(--iris);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cloud);
+}
+
+.main-footer .footer-social-media .social-link-icon {
+    width: 20px;
+    height: 20px;
 }
 
 /* Portofolio */
