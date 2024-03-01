@@ -196,34 +196,27 @@ h2 {
     text-align: center;
 }
 
-.social-link{
+.our-team-section .social-link{
     display: flex;
-    padding-top: 20px;
-    align-items: center;
-    justify-content:space-between;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 30px;
 }
 
-.social-link li{
-    list-style-type: none;
-}
-
-.social-media-link{
-    list-style-type: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+.our-team-section .social-link .social-media-link{
+    width: 44px;
+    height: 44px;
     background-color: var(--iris);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--cloud);
-    position: relative;
 }
 
-.social-link-icon{
-    overflow: visible;
-    position: absolute;
-    padding-left: 40px
+.our-team-section .social-link .social-link-icon{
+    width:20px;
+    height:20px;
 }
 
 p{
