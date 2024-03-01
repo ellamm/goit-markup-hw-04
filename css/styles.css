@@ -270,6 +270,7 @@ p{
     align-items: center;
     justify-content: center;
     height: 312px;
+    box-sizing: content-box;
 }
 
 .main-footer p{
@@ -299,21 +300,17 @@ p{
 
 .main-footer .footer-social-media{
     display: flex;
-    flex-direction: row;
-    gap: 16px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
 }
 
 .footer-social-media .social-media-link {
-    list-style-type: none;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: var(--iris);
     color: var(--cloud);
-    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 
 .footer-social-media .social-link-icon {
