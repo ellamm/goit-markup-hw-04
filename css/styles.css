@@ -181,9 +181,8 @@ h2 {
 
 .our-team-section li {
     list-style-type: none;
-    margin-right: 24px;
     background-color: white;
-    padding-bottom: 32px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
@@ -201,23 +200,35 @@ h2 {
     text-align: center;
 }
 
-.our-team-section .social-links {
+.social-link{
     display: flex;
-    justify-content: center;
+    padding-top: 20px;
     align-items: center;
-    gap: 10px;
+    justify-content:space-between;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.social-media-links {
-    overflow: visible;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
+.social-media-link{
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    background-color: var(--primary-white-color);
-    color: #afb1b8;
+    background-color: var(--iris);
+    color: var(--cloud);
+    position: relative;
+}
+
+.social-link-icon{
+    overflow: visible;
+    position: absolute;
+    right: 30%;
+    left: 30%;
+    width: 40%;
+    bottom: 30%;
+    top: 30%;
+    height: 40%;
 }
 
 p{
