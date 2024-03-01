@@ -141,10 +141,6 @@ h1 {
     height: 100%;
 }
 
-.description-section{
-    margin-bottom: -120px;
-}
-
 .description-section h3{
     color: var(--navy-blue);
     font-weight: 500;
@@ -208,6 +204,10 @@ h2 {
     position: relative;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.social-link li{
+    list-style-type: none;
 }
 
 .social-media-link{
@@ -295,6 +295,31 @@ p{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.main-footer .footer-social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.footer-social-media .social-media-link {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--iris);
+    color: var(--cloud);
+    position: relative;
+}
+
+.footer-social-media .social-link-icon {
+    overflow: visible;
+    position: absolute;
+    padding-left: 40px
 }
 
 /* Portofolio */
