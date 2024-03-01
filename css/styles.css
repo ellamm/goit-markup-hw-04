@@ -201,6 +201,25 @@ h2 {
     text-align: center;
 }
 
+.our-team-section .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media-links {
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--primary-white-color);
+    color: #afb1b8;
+}
+
 p{
     color: var(--slate);
     font-size: 16px;
@@ -213,8 +232,6 @@ p{
 
 .customer-section ul{
     display: flex; 
-    justify-content: center;
-    align-items: center;
 }
 
 .customer-section li {
@@ -233,6 +250,9 @@ p{
     left: 0;
     width: 100%;
     height: 100%;
+    fill: currentColor;
+    flex-basis: calc(100% / 6 - 30px);
+    margin-right: 30px;
 }
 
 /* Footer */
